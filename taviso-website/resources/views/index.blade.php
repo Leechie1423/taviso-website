@@ -16,7 +16,7 @@
 	<x-navbar />
 
 	<section class="relative flex h-[600px] items-center bg-cover bg-center"
-		style="background-image: url('{{ asset('images/mobile-friendly.jpg') }}');">
+		style="background-image: url('{{ asset('images/mobile-friendly.png') }}');">
 		<div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent"></div>
 
 		<div class="container relative z-10 mx-auto w-full px-6">
@@ -64,7 +64,7 @@
 				</div>
 
 				<div class="relative flex justify-end lg:w-2/3">
-					<img src="{{ asset('images/devices-showcase.png') }}" alt="Taviso Software on Devices" class="w-full max-w-3xl drop-shadow-2xl">
+					<img src="{{ asset('images/devices-showcase.png') }}" alt="Taviso Software on Devices" class="w-full max-w-3xl">
 				</div>
 
 			</div>
@@ -81,7 +81,7 @@
 			<div class="grid grid-cols-1 gap-10 md:grid-cols-3">
 
 				<x-feature-card
-					image="images/workshop-mobile.jpg"
+					image="images/mobile-friendly.png"
 					alt="Mobile App in Workshop"
 					label="The Workshop"
 					title="Mobile-Friendly.">
